@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pebble Beach Golf Courses</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--add required stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--leaflet css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+
+    <!--add favicon for the web page-->
+    <link rel="shortcut icon" href="assets/img/golfer.ico" type="image/x-icon">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/dist/storymap.2.5.css">
+    <!--add required libraries-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!--boostrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--leaflet.ajax for asynchronously adding geojson data-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    <!--mini globle map-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="assets/js/globeminimap.js"></script>
+
+    <!--story map plugin-->
+    <script src="assets/dist/storymap.2.5.js"></script>
+</head>
+<body>
+
+<div id="storymap" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 storymap-story">
+            <section data-scene="overview" data-background="assets/img/pebble.mp4">
+                <div class="fullscreen text-center">
+
+                    <h1 class="display-4 d-flex justify-content-center">Pebble Beach Golf Courses</h1>
+
+
+                    <small class="d-flex justify-content-center" style="color: rgba(255,255,255,0.95)">This story map
+                     takes you on a tour of the famous golf courses that make up Pebble Beach.
+                    </small>
+                </div>
+            </section>
+
+            <section data-scene="pebble">
+                <h2>Pebble Beach</h2>
+                <p>In the early part of the 20th century, Samuel F.B. Morse is challenged with making the Pebble Beach area an attractive real estate investment in order to find a buyer. He decides to create a one-of-a-kind golf course with unsurpassed beauty and an element of difficulty that will always be challenging. Morse utilizes the extraordinary talent and vision of two great amateurs—Jack Neville and Douglas Grant—to design the course, and Pebble Beach Golf Links officially opens on February 22, 1919.
+                    Pebble Beach Golf Links is the number 1 rated public course in the country. Pebble Beach was designed by Jack Neville & Douglas Grant and features 18 holes with a par of 72, a rating of 74.7, and a total yardage of 6,828.</p>
+                <img src="assets/img/pebblebeach.jpg" class="img-responsive img-thumbnail" alt="responsive image" alt-text="Pebble Beach Golf Course">
+            </section>
+
+            <section data-scene="spyglass">
+                <h2>Spyglass Hill</h2>
+                <p>Robert Trent Jones, Sr. designed Spyglass Hill Golf Course after NCGA Executive Director Bob Hanna proposed a deal with S.F.B. Morse, founder of Pebble Beach Company, and chairman of the board of Del Monte Properties. The NCGA would fund the building of the course if the Company would put up the land and reserve 30 days a year for NCGA tournaments.
+                    Morse had always envisioned a string of golf courses around Del Monte Forest’s shoreline and he agreed. Jones designed the course, with assistance from his son, Robert Trent Jones, Jr., between Cypress Point and Monterey Peninsula Country Club—and among sand dunes and pine forest.
+                    Today, the Joneses are renowned the world over for creating some of the best courses on Earth, including the masterpiece that is Spyglass Hill.</p>
+                <img src="assets/img/spyglass.jpg" class="img-responsive img-thumbnail" alt="responsive image" alt-text="Spyglass Hill Golf Course">
+                <p>Spyglass Hill features 18 holes with a par of 72, a rating of 75.5, and a yardage of 6.960. </p>
+                <img src="assets/img/spyglass3rdhole.jpg" class="img-responsive img-thumbnail" alt="responsive image" alt-text="Spyglass Hill Golf Course 3rd Hole">
+            </section>
+
+            <section data-scene="spanish">
+                <h2>The Links at Spanish Bay</h2>
+                <p>Situated on acreage that was once occupied by a sand-mining operation, The Links at Spanish Bay was built on vast sandy wasteland ideally suited for creating a true links-style course.
+                    In the early 1980s, Robert Trent Jones, Jr. was called on for a design for Spanish Bay. Tom Watson and Sandy Tatum, both fans of British links golf, were called in to work with him on the project. With a rough course designed, planners began laying out the development that would include The Inn at Spanish Bay. By 1985, the plans received the last of the necessary approvals and the company broke ground on the new project. The Links at Spanish Bay was planned to protect the native dunes habitat and recreate dune forms throughout the areas surrounding the course. The dunes areas would be used to restore native plant communities in one of the most extensive programs ever designed to blend public access, recreation and environmental habitat restoration. To facilitate the propagation of native plants, a nursery was established. In the early seasons, additional nurseries were used to allow for the planting of more 100,000 native species each year. Spanish Bay features 18 holes with a par of 72, a rating of 74, and a yardage of 6,821.</p>
+                <img src="assets/img/spanishbay.jpg" class="img-responsive img-thumbnail" alt="responsive image" alt-text="The links at Spanish Bay Golf Course">
+            </section>
+            <section data-scene="delmonte">
+                <h2>Del Monte</h2>
+                <p>Del Monte is a landmark course that has played an instrumental role in popularizing golf out West since its inception in 1897. The birthplace of the California State Amateur and the oldest course in continuous operation west of the Mississippi retains much of that classic charm today, challenging the game’s best golfers with its small, sloping, old-school greens. The venerable layout brings out of bounds into play on more than half its holes, and puts a premium on placing the ball below the hole with well-bunkered greens that are often pitched strongly from back-to-front.
+                    Originally designed as a nine-hole course in 1897 by Charles E. Maud and expanded to 18 holes in 1902, Del Monte promptly attracted the game’s best players. The course’s Del Monte Championship was so highly regarded that many considered the champion to be the best golfer in the state. When the California State Amateur was founded in 1912, Del Monte was the natural choice to host it. Del Monte was also selected to host the 1916 Western Amateur, marking the first time one of the era’s biggest national amateur events was played west of Colorado. Del Monte features 18 holes with a par of 72, a rating of 71.6, and a yardage of 6,365.</p>
+                <img src="assets/img/delmonte.jpg" class="img-responsive img-thumbnail" alt="responsive image" alt-text="Del Monte Golf Course">
+            </section>
+
+            <section data-scene="peterhay">
+                <h2>Peter Hay</h2>
+                <p>Peter Hay and Samuel F. B. Morse were interested in the concept of a 9-hole course where golfers could work on their short game or squeeze a short round into a busy day. There was a parcel of available hillside between the Pebble Beach Golf Links and the Pebble Beach Equestrian Center with barely enough space—less than 10 acres. The course opened in October 1957 and immediately proved popular, especially with young players and special events and fundraisers. Over the years, Peter Hay Golf Course has been used for everything from warming up to introducing children to the game, as well as hosting the professional and celebrity shoot-outs preceding the AT&T Pebble Beach Pro-Am. For over four decades, the Peter Hay Golf Tournament for boys and girls is also played on this course. Peter Hay was designed by Peter Hay, Jack Neville, and General Robert McClure which features 9 holes with a par of 27. </p>
+                <img src="assets/img/peter.jpg" class="img-responsive img-thumbnail" alt="responsive image" alt-text="Peter Hay Golf Course">
+                <p>Standing at the top of Peter Hay Golf Course is the 30,000-pound bronze sculpture, “Momentum,” by artist Richard MacDonald. The sculpture was created in 2000 in celebration of the 100th playing of the U.S. Open golf championship at Pebble Beach, which was won by Tiger Woods. The image represents the anatomy of the golf swing and the dawn of the new millennium as it encircles centuries of excellence past, present and future.</p>
+                <img src="assets/img/sculpture.jpg" class="img-responsive img-thumbnail" alt="responsive image" alt-text="The Golf Swing">
+            </section>
+
+            <section data-scene="end">
+                <h2>Credits</h2>
+                <p>Craeted by Bryce Bradshaw</p>
+                <p>Contributors: <a href="https://github.com/jakobzhao">Bo Zhao</a> </p>
+                <p>Information Provided by <a href="https://www.pebblebeach.com/golf/">Pebble Beach Golf</a></p>
+                <p>Basemaps Provided by <a href="https://leaflet-extras.github.io/leaflet-providers/preview/">Leaflet-Providers</a> </p>
+            </section>
+
+        </div>
+        <!--map div-->
+        <div class="col-sm-6 col-md-8 storymap-map"></div>
+    </div>
+
+
+    <dl>
+        <dt>
+            <!--facebook icon-->
+            <a class="fab fa-twitter-square btn"
+               href="https://twitter.com/"
+               target="_blank"></a>
+        </dt>
+        <dt>
+            <!--facebook icon-->
+            <a class="fab fa-github btn" href="https://github.com/bryceb09/pebble-beach-storymap" style="top:40px"
+               target="_blank"></a>
+        </dt>
+    </dl>
+
+
+<!-- main javascript -->
+<script type="text/javascript">
+
+
+    var layers = {
+        ESRI: {layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}')},
+        openstreet: {layer: L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png')},
+        cartodb_light: {layer: L.tileLayer('http://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png')}
+    };
+
+    var scenes = {
+        overview: {lat: 44.0000000, lng: -123.5000000, zoom: 7, name: 'Cover Page', layers: []},
+        pebble: {lat: 36.563731, lng: -121.944271, zoom: 16, name: 'Pebble Beach', layers: [layers.ESRI]},
+        spyglass: {lat: 36.584135, lng: -121.958256, zoom: 16, name: 'Spyglass Hill', layers: [layers.openstreet]},
+        spanish: {lat: 36.610256, lng: -121.945959, zoom: 16, name: 'The Links at Spanish Bay', layers: [layers.openstreet]},
+        delmonte: {lat: 36.585719, lng:  -121.872603, zoom: 16, name: 'Del Monte', layers: [layers.openstreet]},
+        peterhay: {lat: 36.572415, lng:  -121.949785, zoom: 19, name: 'Peter Hay', layers: [layers.ESRI]},
+        end: {lat: 36.585719, lng: -121.906603, zoom: 13, name: 'The End', layers: [layers.openstreet]}
+    };
+
+    $('#storymap').storymap({
+        scenes: scenes,
+        baselayer: layers.cartodb_light,
+        legend: false, // if you do not want a legend feature, you can simply not define the createLegend function.
+        credits: "",
+        loader: true,
+        scalebar: false,
+        flyo: true,
+        navwidget: true,
+        createMap: function () {
+            // create a map in the "map" div, set the view to a given place and zoom
+            var map = L.map($(".storymap-map")[0], {
+                zoomControl: false, scrollWheelZoom: false, fadeAnimation: true,
+                zoomAnimation: true
+            }).setView([44, -120], 7);
+
+            //add an miniglobe
+            new L.Control.GlobeMiniMap({
+                marker: 'red',
+                position: 'bottomright'
+            }).addTo(map);
+
+
+            return map;
+        }
+    });
+</script>
+</body>
+</html>
